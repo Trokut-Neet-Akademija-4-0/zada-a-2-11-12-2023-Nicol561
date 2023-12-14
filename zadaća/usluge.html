@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usluge</title>
+    <style>
+        html {
+  background: url(Slike/7662.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+        nav {width: 100%; 
+          background-color:bisque;
+          overflow:auto;
+        }
+
+        body {margin: 0 auto; 
+          max-width: 991px;}
+
+        .nav-links{ list-style: none; 
+          margin: 0;
+          padding: 0;}
+
+        header {height: 110px;}
+
+        .scissors{color: palevioletred;}
+
+        h1 {color: palevioletred;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+          font-weight: bolder; 
+          font-style: italic;}
+
+        .logo{ text-align: center; 
+          display: inline-block;
+          width: 20%;}
+
+        .search{display: inline-block}
+
+        li a {
+      display:inline-block;
+      color: black;
+      text-align: center;
+      padding: 16px 10px;
+      text-decoration: none;}
+    
+      li{display: inline-block;}
+    
+      .active {
+      background-color: palevioletred;
+      color: white;}
+      .heading{display: inline-block;}
+    
+      form {
+      color: #555;
+      display: flex;
+      padding: 2px;
+      border: 1px solid palevioletred;
+      border-radius: 5px;
+      
+    }
+    .logo , .nav-links , .search {display: inline-block;}
+
+    div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+    section {border: 5px dotted black;
+  padding: 35px; 
+  margin: 20px;}
+
+footer{height: 50px; 
+  background-color: bisque; 
+  padding: 10px;
+  position: fixed; 
+  bottom: 0%; 
+  width: 100%; }
+
+.mreze {text-align: center; 
+  background-color: rgba(216, 112, 147, 0.737);}
+
+ div a {text-decoration: none;}  
+
+ a:hover img{transform: scale(1.5); 
+             background-color: bisque;}
+
+ li a:hover{background-color: rgb(224, 123, 23);}
+
+ input:focus{ background-color:lightblue;}
+
+ input:hover{background-color: teal;}
+
+ input{color:hotpink;
+   background-color: rgb(216, 245, 245);
+   padding: 5px;
+   margin: 3px;}
+
+
+       @font-face {
+  font-family: pacifico;
+  src: url(Fontovi/Pacifico.ttf);}
+
+  h1{font-family:pacifico; font-size: 35px;}
+
+  h2{font-family: pacifico; font-size: 35px;}
+
+  h3{font-family: pacifico; font-size: 25px;}
+
+  @font-face {
+    font-family:caviar ;
+    src: url(Fontovi/CaviarDreams.ttf);
+  }
+  li , p {font-family: caviar; font-weight: bold;}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <nav>
+        <div class="logo">
+      <h1>Hair salon</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="scissors" viewBox="0 0 16 16">
+        <path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+      </svg>
+        </div>
+      
+      
+        <div class="nav-links" >
+          
+          <ul>
+            <li><a href="index.html">Naslovna</a></li>
+            <li><a href="o_nama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a class="active" href="usluge.html">Usluge</a></li>
+          </ul>
+          
+        </div>
+      
+      
+        <div class="search">
+          <form action="kontakt.html" >
+            <input type="search" placeholder="Search...">
+            <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+              <path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+            </svg></button>
+          </form> 
+       </div>
+      </nav>
+</header>
+<main><br><br><br>
+    <h2>Naše usluge</h2>
+<section>
+  
+    <table>
+     <tr>
+      <td>
+        <img src="https://hairstyle-news.hr/hsn/wordpress/wp-content/uploads/2020/08/Tehnike-sisanja-13.jpg" width="200"></td>
+      <td>
+        <h3>Kreativno šišanje frizure</h3>
+        <p>Sve više žena pazi na zdravlje i izgled svoje kose. Dođite i uvjerite se da i Vaša kosa može izgledati posebno.</p></td>
+     </tr>
+    </table>
+</section>
+
+
+<section>
+    <table>
+     <tr>
+      <td>
+        <h3>Bojanje kose i pramenovi</h3>
+         <p>Vođeni iskustvom, znanjem i vizijom odabiremo najprikladniju boju kose uz Vaš ten!
+          Topla boja kože slaže se s toplom bojom kose, a hladna boja kože sa hladnom bojom kose.
+          Kombinirani ton lica stapa obje boje s kožom, međutim jedna (topla ili hladna) će prevagnuti.</p></td>
+
+      <td>
+        <img src="https://topstil.com.hr/wp-content/uploads/2019/06/mydentity-boje-za-kosu-trajne-polutrajne-boje.png" width="200"></td>
+
+     </tr>
+    </table>
+</section>
+
+<section>
+    <table>
+     <tr>
+      <td>
+       <img src="https://www.womeninadria.ba/wp-content/uploads/2023/11/svecane-frizure.jpg" width="200"></td>
+
+      <td>
+       <h3>Svečane frizure i styling</h3>
+       <p>Imate dogovor, spremate se za zabavu? Nazovite i dogovorite termin za dnevni ili večernji styling.</p></td>
+     </tr>
+    </table>
+</section>
+
+<section>
+    <table>
+     <tr>
+      <td>
+        <h3>Tretmani i njega kose</h3>
+        <p>Prvo se napravi analiza strukture kose pametnim uređajem, a zatim se preko iPada ispuni kratki upitnik o kosi. Iza toga se uzima pramen kose te se putem infracrvenog svjetla određuje oštećenost kose. Nakon analize sugerira se personalizirana njega za određeni tip kose, a zatim se kosa šamponira. Sljedeći korak je stavljanje boostera u masku koja na kosi stoji pola sata. Kosa je nakon tretmana obnovljena.</p></td>
+      <td>
+        <img src="https://www.ljepotaizdravlje.hr/wp-content/uploads/2021/09/20210831_122322-1140x817.jpg" width="200"></td>
+     </tr>
+    </table>
+</section>
+
+<section>
+    <table>
+     <tr>
+      <td>
+       <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/4/2023/02/london-hairdresser-model-1278225160-1024x600.jpg" width="200"> </td>
+      <td>
+       <h3>Savjetovanje</h3>
+       <p>Pitajte za savjet..to ne košta ništa, a vrijedi mnogo.</p></td>
+     </tr>
+    </table>
+</section>
+<hr>
+
+<div class="gallery">
+    <a target="_blank" href="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Blush-pink-hair-color.jpg">
+      <img src="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Blush-pink-hair-color.jpg" alt="Blush pink hair" width="150">
+    </a>
+    <div class="desc">Blush Pink</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Black-Purple-Silver1.jpg">
+      <img src="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Black-Purple-Silver1.jpg" alt="Black-Purple-Silver" width="150">
+    </a>
+    <div class="desc">Black-Purple-Silver</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Green-and-black-hair-color.jpg">
+      <img src="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Green-and-black-hair-color.jpg" alt="Green and black" width="150">
+    </a>
+    <div class="desc">Green And Black</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Brown-balayage-hair-color.jpg">
+      <img src="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Brown-balayage-hair-color.jpg" alt="Brown balayage hair" width="150">
+    </a>
+    <div class="desc">Brown Balayage</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Electric-Purple-1.jpg
+    ">
+      <img src="https://cdn2.stylecraze.com/wp-content/uploads/2018/08/Electric-Purple-1.jpg" alt="Electric purple hair" width="150">
+    </a>
+    <div class="desc">Electric Purple</div>
+  </div><br><br><br>
+
+
+
+
+
+
+</main>
+<footer>
+  <div class="mreze">
+    <a href="mailto:nicolbudimir@gmail.com" target="_blank"><img src="Slike/envelope.svg" width="30"></a>
+        <a href="tel:0919833798" target="_blank"> <img src="Slike/phone.svg" width="30" > </a>
+        <a href="https://www.facebook.com/?locale=hr_HR" target="_blank"><img src="Slike/facebook.svg" width="30" > </a>
+        <a href="https://twitter.com/" target="_blank"><img src="Slike/twitter-x.svg" width="30"> </a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="Slike/instagram.svg" width="30"></a></div>
+    
+  </div>
+
+
+</footer>
+
+</body>
+</html>
